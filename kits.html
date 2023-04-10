@@ -8,7 +8,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Trote solidário</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="kits.css"/>
   </head>
   <body>
     <div id="container">
@@ -27,23 +27,18 @@
 
         </span>
       </div>
-      <ul>
-        <li>
-          <a href="obj.html">Objetivos e Etapas</a>
-        </li>
-        <li>
-          <a href="equipes.html">Equipes</a>
-        </li>
-        <li>
-          <a href="kits.html">Gincana</a>
-        </li>
-        <li>
-          <a href="integ.html">Integração</a>
-        </li>
-        <li>
-          <A href="encer.html">Encerramento</A>
-        </li>
-      </ul>
+      <div id="kit">
+            <div> 
+                Informe a quantidade de kits entregues <input type="number" id="kits"/>
+            </div>
+            <div>
+                <button onclick="calcularKits()"> Calcular Pontuação dos kits </button>
+            </div>
+            <div>
+                <p id="pontos">  </p>
+            </div>
+        </div>
+        <script src="kits.js"> </script>
       <div id="social-links">
         <a href="https://github.com/ThullioF/Trote-Solidario" target="_blank">
          <ion-icon name="logo-github"></ion-icon>
