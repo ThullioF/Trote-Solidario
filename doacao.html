@@ -8,7 +8,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Trote solidário</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="kits.css"/>
   </head>
   <body>
     <div id="container">
@@ -27,23 +27,22 @@
 
         </span>
       </div>
-      <ul>
-        <li>
-          <a href="obj.html">Objetivos e Etapas</a>
-        </li>
-        <li>
-          <a href="equipes.html">Equipes</a>
-        </li>
-        <li>
-          <a href="gincana.html">Gincana</a>
-        </li>
-        <li>
-          <a href="integ.html">Integração</a>
-        </li>
-        <li>
-          <A href="encer.html">Encerramento</A>
-        </li>
-      </ul>
+      <Ul>
+        <div>-> A doação de sangue no Trote Solidário 2023 será considerada facultativa, ou seja, não incidirá pontos por meta cumprida, entretanto, valerá pontos para cada doação efetuada</div>
+        <div>• Para comprovar a doação o doador deverá solicitar um cartão do Hemocentro com carimbo do Trote Solidário e assinatura</div>
+      </Ul>
+      <div id="kit">
+            <div> 
+                Informe a quantidade de doações feitas <input type="number" id="kits"/>
+            </div>
+            <div>
+                <button onclick="calculardoacao()"> Calcular Pontuação das doações </button>
+            </div>
+            <div>
+                <p id="pontos">  </p>
+            </div>
+        </div>
+        <script src="doacao.js"> </script>
       <div id="social-links">
         <a href="https://github.com/ThullioF/Trote-Solidario" target="_blank">
          <ion-icon name="logo-github"></ion-icon>

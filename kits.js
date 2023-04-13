@@ -25,6 +25,6 @@ function calcularKits(){
         document.getElementById("pontos").innerHTML = "Impossível calcular"
     }
     else {
-        document.getElementById("pontos").innerHTML = "A pontuação foi de " + pontos
+        document.getElementById("pontos").innerHTML = "A equipe fez " + pontos + " pontos"
     }
 }
