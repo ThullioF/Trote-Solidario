@@ -12,6 +12,8 @@
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --border-table: white;
+
 }
 
 .light{
@@ -22,6 +24,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --border-table: black;
 }
 
 body{
@@ -109,6 +112,7 @@ ul{
   flex-direction: column;
   gap: 16px;
   padding: 24px 0px;
+  text-align: center;
 }
 
 ul li a{
@@ -219,4 +223,14 @@ button {
     font-size: 24px;
     font-weight: bold;
     color: #008000;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+td, th{
+  border: 1px solid var(--border-table);
+  padding: 5px;
 }
