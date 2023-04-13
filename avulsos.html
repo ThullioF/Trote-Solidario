@@ -28,41 +28,61 @@
         </span>
       </div>
       <ul>
-      <h3>DOAÇÃO DE SANGUE – PONTUAÇÃO FACULTATIVA</h3>
+      <h3>ALIMENTOS E SUPLEMENTOS – ADICIONAIS</h3>
+      <li>• As doações que excederem a meta serão pontuadas da seguinte forma:</li>
+      <li>- Conjunto padrão(Kit alimentação + Lata de suplemento) -> 50 pontos</li>
+      <li>- Kit alimentação -> 25 pontos</li>
+      <li>- Lata de suplemento baunilha 400 gramas -> 10 pontos</li>
+      <li>- Pacote de arroz 5kg -> 5 pontos</li>
+      <li>- Pacote de arroz 1kg -> 1 pontos</li>
+      <li>- Pacote de feijão 2kg -> 2 pontos</li>
+      <li>- Pacote de feijão 1kg -> 1 pontos</li>
+      <li>- Pacote de macarrão de 500gramas -> 0,5 pontos</li>
+      <li>- Óleo 900ml -> 1 ponto</li>
       </ul>
-      <Ul>
-        <div>-> A doação de sangue no Trote Solidário 2023 será considerada facultativa, ou seja, não incidirá pontos por meta cumprida, entretanto, valerá pontos para cada doação efetuada</div>
-        <div>• Para comprovar a doação o doador deverá solicitar um cartão do Hemocentro com carimbo do Trote Solidário e assinatura</div>
-      </Ul>
       <div id="kit">
             <div> 
-                Informe a quantidade de doações feitas <input type="number" id="kits"/>
+                Informe a quantidade de adicionais Conjunto padrão <input type="number" id="cp"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais Kit alimentação <input type="number" id="kits"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais lata de suplemento <input type="number" id="sup"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais pacote de arroz 5kg <input type="number" id="arroz"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais pacote de feijão 2kg <input type="number" id="feijao"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais pacote de arroz 1kg + pacote de feijão 1kg + óleo 900ml <input type="number" id="afo"/>
+            </div>
+            <div> 
+                Informe a quantidade de adicionais pacote de macarrão 500gramas <input type="number" id="mac"/>
             </div>
             <div>
-                <button onclick="calculardoacao()"> Calcular Pontuação das doações </button>
+                <button onclick="calcularavulsos()"> Calcular Pontuação adicional </button>
             </div>
             <div>
                 <p id="pontos">  </p>
             </div>
         </div>
-        <script src="doacao.js"> </script>
+        <script src="avulsos.js"> </script>
       <div id="social-links">
         <a href="https://github.com/ThullioF/Trote-Solidario" target="_blank">
          <ion-icon name="logo-github"></ion-icon>
         </a>
-
         <a href="https://www.instagram.com/unifacef/" target="_blank">
          <ion-icon name="logo-instagram"></ion-icon>
         </a>
-
         <a href="https://www.youtube.com/@tvunifacef" target="_blank">
          <ion-icon name="logo-youtube"></ion-icon>
         </a>
-
         <a href="https://www.linkedin.com/school/uni-facef/" target="_blank">
          <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-
       </div>
       <footer>
         Desenvolvido por Thúllio A. Ferreira / <a href="https://www.unifacef.com.br">Unifacef</a>

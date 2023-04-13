@@ -199,15 +199,63 @@ footer{
     text-align: center;
     width: 100%;
     max-width: 588px;
-    margin: 56px auto 0px;
     padding: 0 24px;
 }
 
-#kits {
-    padding: 10px;
+#kits{
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
     color:black;
+    margin-bottom: 10px;
+}
+
+#cp{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#sup{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#arroz{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#feijao{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#afo{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
+}
+
+#mac{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color:black;
+    margin-bottom: 10px;
 }
 
 button {

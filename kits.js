@@ -1,7 +1,5 @@
 function calcularKits(){
-    // recupera a qtde de kits
     let kits = Number(document.getElementById("kits").value)
-    // calcula qts pontos a equipe conseguiu
     let pontos
     if (kits >= 80){
         pontos = 5000
